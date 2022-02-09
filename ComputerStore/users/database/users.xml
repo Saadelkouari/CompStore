@@ -1,0 +1,296 @@
+<users>
+    <user id="1">
+        <firstName>Saad</firstName>
+        <lastName>El Kouari</lastName>
+        <phone>0666889977</phone>
+        <email>saad.elkouari@gmail.com</email>
+        <ville>Tanger</ville>
+        <adresse>Av Aiche El Moussafer 15</adresse>
+
+        <password>thisismypass</password>
+    </user>
+    <user id="2">
+        <firstName>Akram</firstName>
+
+        <lastName>Ksiri</lastName>
+
+        <phone>0689745896</phone>
+
+        <email>Akram.ksiri@gmail.com</email>
+
+        <ville>Agadir</ville>
+
+        <adresse>Av. California 15</adresse>
+
+        <password>passpass</password>
+
+    </user>
+
+
+    <user id="3">
+
+      
+        <firstName>Mohamed</firstName>
+
+        <lastName>Zitan</lastName>
+
+        <phone>0666449977</phone>
+        <email>mohamed.zitan@gmail.com</email>
+        <ville>Tetouan</ville>
+
+        <adresse>Av. Royal Army 15</adresse>
+
+        <password>thisishispass</password>
+
+
+    </user>
+    <user id="4">
+
+        <firstName>Houda</firstName>
+
+        <lastName>Mourid</lastName>
+
+        <phone>0145789654</phone>
+
+        <email>houda.mourid@gmail.com</email>
+
+        <ville>Agadir</ville>
+
+        <adresse>Av. California 15</adresse>
+
+        <password>passpass</password>
+
+    </user>
+    <user id="5">
+
+        <firstName>Akram</firstName>
+
+        <lastName>Ksiri</lastName>
+
+        <phone>0612345789</phone>
+
+        <email>kssiriakram@gmail.com</email>
+
+        <ville>Agadir</ville>
+
+        <adresse>Av. California 15</adresse>
+
+        <password>passpasserbfhl</password>
+
+    </user>
+    <user id="6">
+
+        <firstName>akram</firstName>
+
+        <lastName>akram</lastName>
+
+        <phone>0641253789</phone>
+
+        <email>1234@gmail.com</email>
+
+        <ville>tanger</ville>
+
+        <adresse>nerhjcfwgyuwmrcm</adresse>
+
+        <password>akramakram</password>
+
+    </user>
+    <user id="7">
+
+        <firstName>akram</firstName>
+
+        <lastName>akram</lastName>
+
+        <phone>0641523789</phone>
+
+        <email>123444444444@gmail.com</email>
+
+        <ville>tanger</ville>
+
+        <adresse>nerhjcfwgyuwmrcm</adresse>
+
+        <password>akramakram</password>
+
+    </user>
+    <user id="8">
+
+        <firstName>akram</firstName>
+        <lastName>akram</lastName>
+        <phone>0678912354</phone>
+        <email>1234444555555@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>nerhjcfwgyuwmrcm</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="9">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641253790</phone>
+        <email>mohamed123@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="10">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0612345701</phone>
+        <email>mohamed1234@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="11">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0612345791</phone>
+        <email>mohamed12345@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="12">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0612345798</phone>
+        <email>mohamed1234567@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="13">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641253799</phone>
+        <email>mohamed148@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="14">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641253777</phone>
+        <email>mohamed78@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="15">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641257987</phone>
+        <email>mohamed458@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="16">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641266987</phone>
+        <email>mohamed45878@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="17">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641266977</phone>
+        <email>mohamed458789@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="18">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641257777</phone>
+        <email>moahmed7777@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="19">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641257787</phone>
+        <email>moahmed77787@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="20">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641257789</phone>
+        <email>moahmed77789@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="21">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641257799</phone>
+        <email>moahmed77799@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="22">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641777777</phone>
+        <email>mohamed789456@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="23">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641777877</phone>
+        <email>mohamed781456@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="24">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641254789</phone>
+        <email>mohamed1000@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="25">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641259789</phone>
+        <email>mohamed1010@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="26">
+        <firstName>kssiri</firstName>
+        <lastName>bhfleae</lastName>
+        <phone>0641255789</phone>
+        <email>mohamed00@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+    <user id="27">
+        <firstName>kssiri</firstName>
+        <lastName>akram</lastName>
+        <phone>0641253095</phone>
+        <email>mohamed111@gmail.com</email>
+        <ville>tanger</ville>
+        <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+        <password>akramakram</password>
+    </user>
+</users>

@@ -1,0 +1,161 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+
+    <!-- Simple Types -->
+    <xs:simpleType name="frq">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="1.0" />
+            <xs:maxInclusive value="6.0" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="DispTech">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="LED" />
+            <xs:enumeration value="LCD" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="cap">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{1,3}(TB|GB|MB)" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nslots">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="8" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="price">
+        <xs:restriction base="xs:float">
+            <xs:minExclusive value="1000" />
+            <xs:maxExclusive value="100000" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="colour">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="White" />
+            <xs:enumeration value="Black" />
+            <xs:enumeration value="Silver" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="cases">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Business" />
+            <xs:enumeration value="Gaming" />
+            <xs:enumeration value="Studying" />
+            <xs:enumeration value="Engineering" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="size">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="12" />
+            <xs:maxInclusive value="27" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="computer">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="laptop" />
+            <xs:enumeration value="desktop" />
+        </xs:restriction>
+    </xs:simpleType>
+  
+ 
+ <!-- Elements -->
+   
+    <xs:element name="computer" type="desktop">
+        <xs:alternative test="@type='laptop'" type="laptop" />
+        <xs:alternative type="desktop" />
+    </xs:element>
+
+    <xs:element name="computers" type="computers" />
+
+
+
+    <!-- Complex Types -->
+
+    <xs:complexType name="cpu">
+        <xs:sequence>
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="model" type="xs:string" />
+            <xs:element name="frequency" type="frq" />
+            <xs:element name="boost_frequency" type="frq" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ram">
+        <xs:sequence>
+            <xs:element name="capacity" type="cap" />
+            <xs:element name="number_slots" type="nslots" />
+            <xs:element name="type" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="display">
+        <xs:sequence>
+            <xs:element name="size" type="size" />
+            <xs:element name="technology" type="DispTech" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="dgpu">
+        <xs:sequence>
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="model" type="xs:string" />
+            <xs:element name="capacity" type="cap" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="igpu">
+        <xs:sequence>
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="model" type="xs:string" />
+        </xs:sequence>
+
+    </xs:complexType>
+    <xs:complexType name="storage">
+        <xs:sequence>
+            <xs:element name="type" type="xs:string" />
+            <xs:element name="capacity" type="cap" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="os">
+        <xs:sequence>
+            <xs:element name="type" type="xs:string" />
+            <xs:element name="version" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="laptop">
+        <xs:complexContent>
+            <xs:extension base="desktop">
+                <xs:all>
+    
+                    <xs:element name="display" type="display" />
+                    <xs:element name="battery" type="xs:decimal" />
+                </xs:all>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="desktop">
+        <xs:all>
+     <xs:element name="manufacturer" type="xs:string" />
+        <xs:element name="series" type="xs:string" />
+        <xs:element name="model" type="xs:string" />
+        <xs:element name="image" type="xs:anyURI" />
+        <xs:element name="cpu" type="cpu" />
+        <xs:element name="ram" type="ram" />
+        <xs:element name="dedicated_gpu" type="dgpu" minOccurs="0"/>
+        <xs:element name="integrated_gpu" type="igpu" />
+        <xs:element name="storage" type="storage" />
+        <xs:element name="os" type="os" />
+        <xs:element name="price" type="price" />
+        <xs:element name="quantity" type="xs:positiveInteger" />
+        <xs:element name="colour" type="colour" />
+        <xs:element name="usecase" type="cases" />
+        <xs:element name="release_date" type="xs:gYear" />
+        </xs:all>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+        <xs:attribute name="type" type="computer" use="required" />
+    </xs:complexType>
+    <xs:complexType name="computers">
+        <xs:sequence>
+            <xs:element ref="computer" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

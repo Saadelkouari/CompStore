@@ -1,0 +1,8 @@
+<carts><cart userId="27"><total>19000.0</total><computer id="60" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>ProBook</series>
+        <model>9726</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <price>19000</price>
+        <total>19000</total><qte>1</qte></computer>
+    </cart></carts>

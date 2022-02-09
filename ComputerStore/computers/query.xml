@@ -1,0 +1,1877 @@
+<computers>
+    <computer id="60" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>ProBook</series>
+        <model>9726</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 5900HS</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>15</size>
+            <technology>LED</technology>
+        </display>
+        <price>19000</price>
+        <dedicated_gpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Radeon RX 2891</model>
+            <capacity>18GB</capacity>
+        </dedicated_gpu>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Graphics 550</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>8</battery>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2017</release_date>
+        <quantity>81</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="1" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>AlienStation</series>
+        <model>9838</model>
+        <image>https://www.neuf.tv/wp-content/uploads/2021/06/alienware_x15_r1_image_1622556557685.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 3550H</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>16000</price>
+        <dedicated_gpu>
+            <manufacturer>Nvidia</manufacturer>
+            <model>GeForce GTX 1728</model>
+            <capacity>16GB</capacity>
+        </dedicated_gpu>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Graphics 550</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>3TB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2020</release_date>
+        <quantity>11</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="2" type="desktop">
+        <manufacturer>HP</manufacturer>
+        <series>Tower</series>
+        <model>551</model>
+        <image>https://www.notebookcheck.net/typo3temp/_processed_/1/f/csm_HP-Pavilion-Sleekbook-15z-b000-1_d11f8c0680.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-9750HF</model>
+            <frequency>2.5</frequency>
+            <boost_frequency>3.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <price>13000</price>
+        <dedicated_gpu>
+            <manufacturer>Nvidia</manufacturer>
+            <model>Titan RTX 1336</model>
+            <capacity>8GB</capacity>
+        </dedicated_gpu>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2020</release_date>
+        <quantity>53</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="3" type="desktop">
+        <manufacturer>HP</manufacturer>
+        <series>Tower</series>
+        <model>7252</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 4900HS</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>17000</price>
+        <dedicated_gpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Radeon VII 4655</model>
+            <capacity>12GB</capacity>
+        </dedicated_gpu>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2019</release_date>
+        <quantity>74</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="4" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>Inspiron</series>
+        <model>446</model>
+        <image>https://www.neuf.tv/wp-content/uploads/2021/06/alienware_x15_r1_image_1622556557685.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-10710U</model>
+            <frequency>2.9</frequency>
+            <boost_frequency>3.4</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>13</size>
+            <technology>LED</technology>
+        </display>
+        <price>15000</price>
+        <dedicated_gpu>
+            <manufacturer>Nvidia</manufacturer>
+            <model>GeForce GTX 622</model>
+            <capacity>8GB</capacity>
+        </dedicated_gpu>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 510</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <battery>15</battery>
+        <colour>Black</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2021</release_date>
+        <quantity>2</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="5" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>Pavilion</series>
+        <model>4338</model>
+        <image>https://www.cdiscount.com/pdt2/8/2/6/1/700x700/hp0195161267826/rw/pc-ultrabook-hp-laptop-245-g7-14-hd-ryze.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen PRO</model>
+            <frequency>3.6</frequency>
+            <boost_frequency>4.1</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LCD</technology>
+        </display>
+        <price>18000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>7</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2019</release_date>
+        <quantity>16</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="6" type="desktop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>HALO</series>
+        <model>6908</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/_Bsmf6P_BGk___KGrHqIH-E_EvPKy9uNmBL4hd_NCWw___3_01.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 5900HX</model>
+            <frequency>2.2</frequency>
+            <boost_frequency>2.7</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <price>26000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 630</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2016</release_date>
+        <quantity>31</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Debian</version>
+        </os>
+    </computer>
+    <computer id="7" type="desktop">
+        <manufacturer>HP</manufacturer>
+        <series>Tower</series>
+        <model>735</model>
+        <image>https://www.cdiscount.com/pdt2/8/2/6/1/700x700/hp0195161267826/rw/pc-ultrabook-hp-laptop-245-g7-14-hd-ryze.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Celeron N3350</model>
+            <frequency>3.3</frequency>
+            <boost_frequency>3.8</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>27000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 610</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2020</release_date>
+        <quantity>74</quantity>
+        <os>
+            <type>Linux</type>
+            <version>RedHat</version>
+        </os>
+    </computer>
+    <computer id="8" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Thinkpad</series>
+        <model>954</model>
+        <image>https://cdn.cnetcontent.com/0d/3a/0d3ae974-1185-4947-90b3-0e529bd6490a.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i3-10110U</model>
+            <frequency>2.5</frequency>
+            <boost_frequency>3.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>3000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>12</battery>
+        <colour>Black</colour>
+        <usecase>Studying</usecase>
+        <release_date>2017</release_date>
+        <quantity>13</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="9" type="laptop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>Z</series>
+        <model>1054</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/_Bsmf6P_BGk___KGrHqIH-E_EvPKy9uNmBL4hd_NCWw___3_01.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-1035G7</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LED</technology>
+        </display>
+        <price>22000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>8</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2020</release_date>
+        <quantity>34</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="10" type="laptop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>Z</series>
+        <model>2173</model>
+        <image>https://sm.pcmag.com/pcmag_au/review/s/sony-vaio-/sony-vaio-vpc-eb13fxbic_s4z2.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-11370H</model>
+            <frequency>3.2</frequency>
+            <boost_frequency>3.7</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <display>
+            <size>12</size>
+            <technology>LCD</technology>
+        </display>
+        <price>11000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 520</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <battery>11</battery>
+        <colour>Black</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2019</release_date>
+        <quantity>48</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="11" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>AlienStation</series>
+        <model>8843</model>
+        <image>https://cf2.s3.souqcdn.com/item/2017/07/06/21/99/26/00/item_XL_21992600_33117749.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 5500U</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>12000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 515</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>3TB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2021</release_date>
+        <quantity>75</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="12" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Legion</series>
+        <model>2515</model>
+        <image>https://cdn.cnetcontent.com/0d/3a/0d3ae974-1185-4947-90b3-0e529bd6490a.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen PRO</model>
+            <frequency>3.8</frequency>
+            <boost_frequency>4.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>4000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Graphics 550</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2021</release_date>
+        <quantity>25</quantity>
+        <os>
+            <type>Linux</type>
+            <version>RedHat</version>
+        </os>
+    </computer>
+    <computer id="13" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>Victus</series>
+        <model>892</model>
+        <image>https://www.ubuy.ma/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFoaUJhMjFuYUwuX0FDX1NMMTUwMF8uanBn.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-11260H</model>
+            <frequency>3.8</frequency>
+            <boost_frequency>4.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>15</size>
+            <technology>LED</technology>
+        </display>
+        <price>7000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 520</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <battery>13</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2021</release_date>
+        <quantity>10</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="14" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>Pavilion</series>
+        <model>5590</model>
+        <image>https://www.electrocity.ie/wp-content/uploads/2020/04/13-an0006.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-10610U</model>
+            <frequency>2.8</frequency>
+            <boost_frequency>3.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>12000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>12</battery>
+        <colour>Black</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2018</release_date>
+        <quantity>11</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="15" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>Pavilion</series>
+        <model>2814</model>
+        <image>https://www.ubuy.ma/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFoaUJhMjFuYUwuX0FDX1NMMTUwMF8uanBn.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen PRO</model>
+            <frequency>2.9</frequency>
+            <boost_frequency>3.4</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>13</size>
+            <technology>LCD</technology>
+        </display>
+        <price>22000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <battery>13</battery>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2019</release_date>
+        <quantity>38</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="16" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Yoga</series>
+        <model>133</model>
+        <image>https://m.media-amazon.com/images/I/71s9i0ZJF2L._SL1500_.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Xeon E-2276M</model>
+            <frequency>2.3</frequency>
+            <boost_frequency>2.8</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LCD</technology>
+        </display>
+        <price>9000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 610</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>3TB</capacity>
+        </storage>
+        <battery>10</battery>
+        <colour>Black</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2021</release_date>
+        <quantity>85</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="17" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>G</series>
+        <model>2924</model>
+        <image>https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-hero.jpg?fmt=jpg&amp;wid=570&amp;hei=400</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-8850H</model>
+            <frequency>3.7</frequency>
+            <boost_frequency>4.2</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LED</technology>
+        </display>
+        <price>27000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <battery>8</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2016</release_date>
+        <quantity>83</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="18" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>ProStation</series>
+        <model>4570</model>
+        <image>https://5.imimg.com/data5/PM/VO/MY-52215594/dell-new-xps-13-laptop-500x500.jpeg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-11400H</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <price>5000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 630</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Studying</usecase>
+        <release_date>2017</release_date>
+        <quantity>32</quantity>
+        <os>
+            <type>Linux</type>
+            <version>RedHat</version>
+        </os>
+    </computer>
+    <computer id="19" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>AlienStation</series>
+        <model>9872</model>
+        <image>https://cf2.s3.souqcdn.com/item/2017/07/06/21/99/26/00/item_XL_21992600_33117749.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-8265U</model>
+            <frequency>2.8</frequency>
+            <boost_frequency>3.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>6000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Studying</usecase>
+        <release_date>2017</release_date>
+        <quantity>29</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="20" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>ProBook</series>
+        <model>6383</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-8257U</model>
+            <frequency>2.6</frequency>
+            <boost_frequency>3.1</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>17000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <battery>8</battery>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2021</release_date>
+        <quantity>82</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Debian</version>
+        </os>
+    </computer>
+    <computer id="21" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Thinkpad</series>
+        <model>4509</model>
+        <image>https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SY355_.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 5800H</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LED</technology>
+        </display>
+        <price>7000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Pro Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2019</release_date>
+        <quantity>38</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="22" type="desktop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Virpo</series>
+        <model>5804</model>
+        <image>https://cdn.cnetcontent.com/0d/3a/0d3ae974-1185-4947-90b3-0e529bd6490a.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 3780U</model>
+            <frequency>3.5</frequency>
+            <boost_frequency>4.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>15000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 610</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2018</release_date>
+        <quantity>41</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="23" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>ProStation</series>
+        <model>3483</model>
+        <image>https://m.media-amazon.com/images/I/81rTYNStzzL._AC_SL1500_.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 4900HS</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <price>7000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 610</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2018</release_date>
+        <quantity>40</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="24" type="laptop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>E</series>
+        <model>2407</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/_Bsmf6P_BGk___KGrHqIH-E_EvPKy9uNmBL4hd_NCWw___3_01.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-1035G4</model>
+            <frequency>2.7</frequency>
+            <boost_frequency>3.2</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>12</size>
+            <technology>LED</technology>
+        </display>
+        <price>13000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Graphics 550</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <battery>11</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2020</release_date>
+        <quantity>6</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="25" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Yoga</series>
+        <model>2000</model>
+        <image>https://cdn.cnetcontent.com/0d/3a/0d3ae974-1185-4947-90b3-0e529bd6490a.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-8557U</model>
+            <frequency>3.3</frequency>
+            <boost_frequency>3.8</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LCD</technology>
+        </display>
+        <price>23000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 515</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2017</release_date>
+        <quantity>61</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="26" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Thinkpad</series>
+        <model>7862</model>
+        <image>https://www.bhphotovideo.com/images/images1500x1500/lenovo_20ta004mus_thinkpad_e14_g2_i7_1165_1605844.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>A6-9225 13%</model>
+            <frequency>3.5</frequency>
+            <boost_frequency>4.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>13</size>
+            <technology>LED</technology>
+        </display>
+        <price>11000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 510</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>8</battery>
+        <colour>Silver</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2021</release_date>
+        <quantity>4</quantity>
+        <os>
+            <type>Linux</type>
+            <version>RedHat</version>
+        </os>
+    </computer>
+    <computer id="27" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>Inspiron</series>
+        <model>2440</model>
+        <image>https://www.neuf.tv/wp-content/uploads/2021/06/alienware_x15_r1_image_1622556557685.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-11260H</model>
+            <frequency>3.8</frequency>
+            <boost_frequency>4.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>15</size>
+            <technology>LCD</technology>
+        </display>
+        <price>18000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>15</battery>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2021</release_date>
+        <quantity>32</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="28" type="desktop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Virpo</series>
+        <model>8123</model>
+        <image>https://cdn.cnetcontent.com/0d/3a/0d3ae974-1185-4947-90b3-0e529bd6490a.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 5800U</model>
+            <frequency>2.9</frequency>
+            <boost_frequency>3.4</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>9000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2021</release_date>
+        <quantity>85</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="29" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>ENVY</series>
+        <model>3927</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 3780U</model>
+            <frequency>3.5</frequency>
+            <boost_frequency>4.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>13</size>
+            <technology>LCD</technology>
+        </display>
+        <price>19000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>6</battery>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2019</release_date>
+        <quantity>65</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="30" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>ProStation</series>
+        <model>8174</model>
+        <image>https://cf2.s3.souqcdn.com/item/2017/07/06/21/99/26/00/item_XL_21992600_33117749.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Xeon W-10885M</model>
+            <frequency>2.4</frequency>
+            <boost_frequency>2.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <price>23000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 510</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2018</release_date>
+        <quantity>32</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="31" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>Arta</series>
+        <model>1665</model>
+        <image>https://m.media-amazon.com/images/I/81rTYNStzzL._AC_SL1500_.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 2500U</model>
+            <frequency>2.7</frequency>
+            <boost_frequency>3.2</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <price>14000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Studying</usecase>
+        <release_date>2020</release_date>
+        <quantity>67</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="32" type="desktop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>Pure</series>
+        <model>9768</model>
+        <image>https://sm.pcmag.com/pcmag_au/review/s/sony-vaio-/sony-vaio-vpc-eb13fxbic_s4z2.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-1035G7</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>9000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2018</release_date>
+        <quantity>29</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="33" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Legion</series>
+        <model>3441</model>
+        <image>https://www.bhphotovideo.com/images/images1500x1500/lenovo_20ta004mus_thinkpad_e14_g2_i7_1165_1605844.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i3-7100U</model>
+            <frequency>2.3</frequency>
+            <boost_frequency>2.8</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>17000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 530</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Silver</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2021</release_date>
+        <quantity>51</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="34" type="desktop">
+        <manufacturer>HP</manufacturer>
+        <series>Alfa</series>
+        <model>8348</model>
+        <image>https://www.notebookcheck.net/typo3temp/_processed_/1/f/csm_HP-Pavilion-Sleekbook-15z-b000-1_d11f8c0680.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-7300U</model>
+            <frequency>2.0</frequency>
+            <boost_frequency>2.5</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <price>23000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2019</release_date>
+        <quantity>73</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="35" type="desktop">
+        <manufacturer>HP</manufacturer>
+        <series>Zen</series>
+        <model>5286</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 3580U</model>
+            <frequency>3.2</frequency>
+            <boost_frequency>3.7</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR4</type>
+        </ram>
+        <price>10000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2017</release_date>
+        <quantity>99</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="36" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>G</series>
+        <model>5364</model>
+        <image>https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-hero.jpg?fmt=jpg&amp;wid=570&amp;hei=400</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-1145G7</model>
+            <frequency>2.4</frequency>
+            <boost_frequency>2.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>6000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <battery>9</battery>
+        <colour>Black</colour>
+        <usecase>Studying</usecase>
+        <release_date>2020</release_date>
+        <quantity>7</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Debian</version>
+        </os>
+    </computer>
+    <computer id="37" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Legion</series>
+        <model>1458</model>
+        <image>https://www.bhphotovideo.com/images/images1500x1500/lenovo_20ta004mus_thinkpad_e14_g2_i7_1165_1605844.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-10510U</model>
+            <frequency>3.1</frequency>
+            <boost_frequency>3.6</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LCD</technology>
+        </display>
+        <price>7000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 620</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <battery>13</battery>
+        <colour>Black</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2018</release_date>
+        <quantity>98</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="38" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Legion</series>
+        <model>4820</model>
+        <image>https://m.media-amazon.com/images/I/71s9i0ZJF2L._SL1500_.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-L16G7</model>
+            <frequency>2.5</frequency>
+            <boost_frequency>3.0</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LED</technology>
+        </display>
+        <price>13000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 515</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>3TB</capacity>
+        </storage>
+        <battery>11</battery>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2020</release_date>
+        <quantity>2</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="39" type="desktop">
+        <manufacturer>DELL</manufacturer>
+        <series>AlienStation</series>
+        <model>4658</model>
+        <image>https://5.imimg.com/data5/PM/VO/MY-52215594/dell-new-xps-13-laptop-500x500.jpeg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-9300HF</model>
+            <frequency>2.8</frequency>
+            <boost_frequency>3.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>21000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 630</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2016</release_date>
+        <quantity>2</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="40" type="desktop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>Pure</series>
+        <model>8409</model>
+        <image>https://sm.pcmag.com/pcmag_au/review/s/sony-vaio-/sony-vaio-vpc-eb13fxbic_s4z2.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen PRO</model>
+            <frequency>2.9</frequency>
+            <boost_frequency>3.4</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <price>28000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 510</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2021</release_date>
+        <quantity>4</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="41" type="laptop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>Fit</series>
+        <model>8473</model>
+        <image>https://www.notebookcheck.net/uploads/tx_nbc2/_Bsmf6P_BGk___KGrHqIH-E_EvPKy9uNmBL4hd_NCWw___3_01.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i3-1005G1</model>
+            <frequency>2.9</frequency>
+            <boost_frequency>3.4</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LED</technology>
+        </display>
+        <price>12000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>1TB</capacity>
+        </storage>
+        <battery>15</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2019</release_date>
+        <quantity>2</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Family</version>
+        </os>
+    </computer>
+    <computer id="42" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Thinkpad</series>
+        <model>826</model>
+        <image>https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SY355_.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i7-7500U</model>
+            <frequency>2.8</frequency>
+            <boost_frequency>3.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>12</size>
+            <technology>LCD</technology>
+        </display>
+        <price>27000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 510</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>12</battery>
+        <colour>Silver</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2021</release_date>
+        <quantity>60</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="43" type="desktop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>ThinkCentre</series>
+        <model>4856</model>
+        <image>https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SY355_.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 2300U</model>
+            <frequency>2.4</frequency>
+            <boost_frequency>2.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>27000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 520</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>256GB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Business</usecase>
+        <release_date>2020</release_date>
+        <quantity>91</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="44" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>Alienware</series>
+        <model>403</model>
+        <image>https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-hero.jpg?fmt=jpg&amp;wid=570&amp;hei=400</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i3-1115G4</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>16GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>15</size>
+            <technology>LCD</technology>
+        </display>
+        <price>20000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 615</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <battery>13</battery>
+        <colour>Silver</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2017</release_date>
+        <quantity>73</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 Pro</version>
+        </os>
+    </computer>
+    <computer id="45" type="laptop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>Thinkpad</series>
+        <model>2278</model>
+        <image>https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SY355_.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Celeron N4120</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>32GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LED</technology>
+        </display>
+        <price>3000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>125GB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Black</colour>
+        <usecase>Gaming</usecase>
+        <release_date>2017</release_date>
+        <quantity>20</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="46" type="desktop">
+        <manufacturer>LENOVO</manufacturer>
+        <series>ThinkCentre</series>
+        <model>5183</model>
+        <image>https://www.bhphotovideo.com/images/images1500x1500/lenovo_20ta004mus_thinkpad_e14_g2_i7_1165_1605844.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen PRO</model>
+            <frequency>3.8</frequency>
+            <boost_frequency>4.3</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR5</type>
+        </ram>
+        <price>13000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <colour>Black</colour>
+        <usecase>Engineering</usecase>
+        <release_date>2019</release_date>
+        <quantity>27</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Ubuntu</version>
+        </os>
+    </computer>
+    <computer id="47" type="laptop">
+        <manufacturer>HP</manufacturer>
+        <series>ProBook</series>
+        <model>3106</model>
+        <image>https://www.notebookcheck.net/typo3temp/_processed_/1/f/csm_HP-Pavilion-Sleekbook-15z-b000-1_d11f8c0680.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Core i5-1038NG7</model>
+            <frequency>3.3</frequency>
+            <boost_frequency>3.8</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>12GB</capacity>
+            <number_slots>3</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>15</size>
+            <technology>LED</technology>
+        </display>
+        <price>18000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 520</model>
+        </integrated_gpu>
+        <storage>
+            <type>HDD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>9</battery>
+        <colour>Silver</colour>
+        <usecase>Studying</usecase>
+        <release_date>2017</release_date>
+        <quantity>49</quantity>
+        <os>
+            <type>Linux</type>
+            <version>RedHat</version>
+        </os>
+    </computer>
+    <computer id="48" type="laptop">
+        <manufacturer>DELL</manufacturer>
+        <series>Inspiron</series>
+        <model>2244</model>
+        <image>https://cf2.s3.souqcdn.com/item/2017/07/06/21/99/26/00/item_XL_21992600_33117749.jpg</image>
+        <cpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Celeron N4120</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>8GB</capacity>
+            <number_slots>4</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>14</size>
+            <technology>LED</technology>
+        </display>
+        <price>26000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>Iris Plus Graphics</model>
+        </integrated_gpu>
+        <storage>
+            <type>NVMe</type>
+            <capacity>512GB</capacity>
+        </storage>
+        <battery>14</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2019</release_date>
+        <quantity>25</quantity>
+        <os>
+            <type>Windows</type>
+            <version>10 N</version>
+        </os>
+    </computer>
+    <computer id="49" type="laptop">
+        <manufacturer>SONY VAIO</manufacturer>
+        <series>M</series>
+        <model>125</model>
+        <image>https://sm.pcmag.com/pcmag_au/review/s/sony-vaio-/sony-vaio-vpc-eb13fxbic_s4z2.jpg</image>
+        <cpu>
+            <manufacturer>AMD</manufacturer>
+            <model>Ryzen 3450U</model>
+            <frequency>3.4</frequency>
+            <boost_frequency>3.9</boost_frequency>
+        </cpu>
+        <ram>
+            <capacity>4GB</capacity>
+            <number_slots>2</number_slots>
+            <type>DDR3</type>
+        </ram>
+        <display>
+            <size>16</size>
+            <technology>LCD</technology>
+        </display>
+        <price>26000</price>
+        <integrated_gpu>
+            <manufacturer>Intel</manufacturer>
+            <model>HD Graphics 500</model>
+        </integrated_gpu>
+        <storage>
+            <type>SSD</type>
+            <capacity>2TB</capacity>
+        </storage>
+        <battery>7</battery>
+        <colour>Silver</colour>
+        <usecase>Business</usecase>
+        <release_date>2018</release_date>
+        <quantity>88</quantity>
+        <os>
+            <type>Linux</type>
+            <version>Debian</version>
+        </os>
+    </computer>
+</computers>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+
+    <!-- Simple Types -->
+
+    <xs:simpleType name="paiment">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="carte" />
+            <xs:enumeration value="livraison" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="email">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^\.]+\..+" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="name">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z ]*" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="phone">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{10}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="price">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
+<!-- Elements -->
+<xs:element name="factures" type="factures" />
+<xs:element name="facture" type="facture" />
+<xs:element name="getfactures" type="getfactures" />
+
+<!-- Complex Types -->
+
+    <xs:complexType name="livraison">
+        <xs:all>
+            <xs:element name="adresse" type="xs:string" />
+            <xs:element name="ville" type="name" />
+            <xs:element name="dateLivraison" type="xs:date" />
+            <xs:element name="recepteur" type="recepteur" />
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="recepteur">
+        <xs:all>
+            <xs:element name="firstName" type="name" />
+            <xs:element name="lastName" type="name" />
+            <xs:element name="phone" type="phone" />
+            <xs:element name="email" type="email" />
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="commande">
+        <xs:sequence>
+            <xs:element name="total" type="price" default="0" />
+            <xs:element name="computer" type="computer" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="computer">
+        <xs:all>
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="series" type="xs:string" />
+            <xs:element name="model" type="xs:string" />
+            <xs:element name="image" type="xs:anyURI" />
+            <xs:element name="qte" type="xs:positiveInteger" />
+            <xs:element name="price" type="price" />
+            <xs:element name="total" type="price" />
+        </xs:all>
+        <xs:attribute name="id" type="xs:positiveInteger" />
+        <xs:attribute name="type" type="xs:string" />
+    </xs:complexType>
+
+    <xs:complexType name="facture">
+        <xs:sequence>
+            <xs:element name="dateFacturation" type="xs:date" />
+            <xs:element name="livraison" type="livraison" />
+            <xs:element name="paiment" type="paiment" />
+            <xs:element name="commande" type="commande" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:positiveInteger" />
+        <xs:attribute name="userId" type="xs:positiveInteger" />
+    </xs:complexType>
+    <xs:complexType name="factures">
+        <xs:sequence>
+            <xs:element name="facture" type="facture" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="getfactures">
+        <xs:simpleContent>
+            <xs:extension base="xs:positiveInteger">
+                <xs:attribute name="id" type="xs:positiveInteger" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>

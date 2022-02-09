@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Simple Types -->
+    <xs:simpleType name="price">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Attributes -->
+
+    <xs:attribute name="userId" type="xs:positiveInteger" />
+    <xs:attribute name="type" type="xs:string" />
+
+    <!-- Elements -->
+    <xs:element name="cart" type="cart" />
+    <xs:element name="carts" type="carts" />
+    <xs:element name="addcomputer" type="xs:positiveInteger" />
+    <xs:element name="editcomputer" type="xs:positiveInteger" />
+
+
+    <!--Complex Types -->
+
+
+    <xs:complexType name="computer">
+        <xs:all>
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="series" type="xs:string" />
+            <xs:element name="model" type="xs:string" />
+            <xs:element name="image" type="xs:anyURI" />
+            <xs:element name="qte" type="xs:positiveInteger" />
+            <xs:element name="price" type="price" />
+            <xs:element name="total" type="price" default="0" />
+
+        </xs:all>
+        <xs:attribute name="id" type="xs:positiveInteger" use="required" />
+        <xs:attribute ref="type" />
+    </xs:complexType>
+    <xs:complexType name="cart">
+        <xs:sequence minOccurs='0'>
+            <xs:choice>
+                <xs:choice>
+                    <xs:element ref="addcomputer" />
+                    <xs:element name="quantity" type="changeqte" />
+
+
+                </xs:choice>
+                <xs:sequence>
+                    <xs:element name="total" type="price" default="0" />
+                    <xs:element name="computer" type="computer" minOccurs="0" maxOccurs="unbounded" />
+
+                </xs:sequence>
+            </xs:choice>
+
+        </xs:sequence>
+        <xs:attribute ref="userId" />
+    </xs:complexType>
+    <xs:complexType name="carts">
+        <xs:sequence>
+            <xs:element ref="cart" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="changeqte">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="id" type="xs:positiveInteger"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+
+</xs:schema>

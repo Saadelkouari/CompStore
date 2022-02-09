@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:simpleType name="email">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^\.]+\..+" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="name">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z ]*" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="phone">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{10}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="password">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="8" />
+            <xs:maxLength value="32" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:element name="user" type="user" />
+    <xs:element name="users" type="users" />
+    <xs:element name="login" type="login" />
+
+    <xs:complexType name="login">
+        <xs:all>
+            <xs:element name="email" type="email" />
+            <xs:element name="password" type="password" />
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="user">
+        <xs:all>
+            <xs:element name="firstName" type="name" />
+            <xs:element name="lastName" type="name" />
+            <xs:element name="phone" type="phone" />
+            <xs:element name="email" type="email" />
+            <xs:element name="ville" type="name" />
+            <xs:element name="adresse" type="xs:string" />
+            <xs:element name="password" type="password" />
+        </xs:all>
+        <xs:attribute name="id" type="xs:positiveInteger" />
+    </xs:complexType>
+    <xs:complexType name="users">
+        <xs:sequence>
+            <xs:element ref="user" maxOccurs="unbounded" />
+        </xs:sequence>
+
+    </xs:complexType>
+
+</xs:schema>

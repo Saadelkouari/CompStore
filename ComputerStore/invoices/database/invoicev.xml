@@ -1,0 +1,18 @@
+<facture id="59" userId="27">
+      <dateFacturation>2022-02-08</dateFacturation>
+      <livraison>
+      <adresse>aaaaaaaaaaaaaaaaaaaaaaa</adresse>
+      <ville>tanger</ville>
+      <dateLivraison>2022-02-10</dateLivraison>
+      <recepteur>
+      <firstName>kssiri</firstName>
+      <lastName>akram</lastName>
+      <phone>0641253095</phone>
+      <email>mohamed111@gmail.com</email>
+      </recepteur>
+      
+      </livraison>
+      <paiment>carte</paiment>
+      <commande>
+      <total>65000.0</total>
+      <computer id="60" type="laptop">        <manufacturer>HP</manufacturer>        <series>ProBook</series>        <model>9726</model>        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>        <price>19000</price>        <total>19000</total><qte>1</qte></computer><computer id="1" type="desktop">        <manufacturer>DELL</manufacturer>        <series>AlienStation</series>        <model>9838</model>        <image>https://www.neuf.tv/wp-content/uploads/2021/06/alienware_x15_r1_image_1622556557685.jpg</image>        <price>16000</price>        <total>16000</total><qte>1</qte></computer><computer id="2" type="desktop">        <manufacturer>HP</manufacturer>        <series>Tower</series>        <model>551</model>        <image>https://www.notebookcheck.net/typo3temp/_processed_/1/f/csm_HP-Pavilion-Sleekbook-15z-b000-1_d11f8c0680.jpg</image>        <price>13000</price>        <total>13000</total><qte>1</qte></computer><computer id="3" type="desktop">        <manufacturer>HP</manufacturer>        <series>Tower</series>        <model>7252</model>        <image>https://www.notebookcheck.net/uploads/tx_nbc2/HPPavilion13-b__1__01.jpg</image>        <price>17000</price>        <total>17000</total><qte>1</qte></computer></commande></facture>
